@@ -1,0 +1,425 @@
+.bg-primary {
+  background-color: #37a6eb !important;
+}
+
+.bg-gray {
+  background-color: #F7F7F7 !important;
+}
+
+.bg-blue {
+  background-color: #EFF7FF !important;
+}
+
+.border-primary {
+  border: 1px solid #37a6eb;
+}
+
+.border-gary {
+  border: 1px solid #9ca3af;  
+}
+
+.color-primary {
+  color: #37a6eb !important;
+}
+
+.color-red {
+  color: #FF2444 !important;
+}
+
+
+.btn-round {
+  border-radius: 16px;
+}
+
+.img-size {
+  width: 84px;
+  height: 84px;
+}
+
+.img-size-sm {
+  width: 42px;
+  height: 42px;
+}
+
+.back-icon img {
+  height: 18px;
+}
+
+.header-sm {
+  height: 42px;
+}
+
+.content .product-info img {
+	height: 168px;
+}
+
+.content .product-info .bg-tag {
+	height: 24px;
+}
+
+.content .product-info .tag {
+	line-height: 24px;
+}
+
+.btn-red {
+  background: #FF2444;
+  color: #ffffff;
+}
+
+
+/* btn switch */
+.btn-switch {
+  cursor: pointer;
+  width: 52px;
+  height: 31px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none !important;
+}
+
+.btn-switch.small {
+  width: 40px;
+  height: 20px;
+  border-radius: 16px;
+  background-color: #ccc;
+}
+
+.btn-switch.small:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+}
+
+.btn-switch.large {
+  width: 70px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.btn-switch.large:before {
+  content: '';
+  width: 28px;
+  height: 28px;
+  border-radius: 30px;
+}
+
+.btn-switch.large:after {
+  content: '关闭';
+  color: #999;
+  left: 30px;
+  position: absolute;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.btn-switch.large:checked:after {
+  content: '开启';
+  color: #fff;
+  left: 10px;
+  position: absolute;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.btn-switch.large:checked:before {
+  left: 40px;
+}
+
+.btn-switch:before {
+  content: '';
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.btn-switch:checked {
+  border-color: #FF2444;
+  box-shadow: #FF2444 0 0 0 16px inset;
+  background-color: #FF2444;
+}
+
+.btn-switch:checked:before {
+  left: 21px;
+}
+
+.btn-switch.btn-switch-animbg {
+  transition: background-color ease 0.4s;
+}
+
+.btn-switch.btn-switch-animbg:before {
+  transition: left 0.3s;
+}
+
+.btn-switch.btn-switch-animbg:checked {
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  background-color: #64bd63;
+  transition: border-color 0.4s, background-color ease 0.4s;
+}
+
+.btn-switch.btn-switch-animbg:checked:before {
+  transition: left 0.3s;
+}
+
+.btn-switch.btn-switch-anim {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.btn-switch.btn-switch-anim:before {
+  transition: left 0.3s;
+}
+
+.btn-switch.btn-switch-anim:checked {
+  box-shadow: #64bd63 0 0 0 16px inset;
+  background-color: #64bd63;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+
+.btn-switch.btn-switch-anim:checked:before {
+  transition: left 0.3s;
+}
+
+input[type=checkbox]:checked::before {
+  font: normal normal normal 14px/2;
+}
+
+.back-icon-bg {
+  width: 34px;
+  height: 34px;
+  background: rgba(0, 0, 0, .35);
+}
+
+.back-icon-bg img {
+  height: 16px;
+}
+
+.qiandao-layer-con {
+	position: absolute;
+	z-index: 999;
+	left: calc(50% - 105px);
+	top: 20%;
+	padding-top: 36px;
+}
+
+.qiandao-history-layer .qiandao-layer-con {
+	width: 211px;
+	height: 239px;
+	background: url("../images/IntegralCheckIn/bg-alert.png") no-repeat;
+}
+
+.qiandao-layer{position:fixed;top:0;bottom:0;left:0;z-index:888;display:none;width:100%}
+.qiandao-layer-bg{width:100%;height:100%;background-color:#000;opacity:.55;filter:alpha(opacity=55)}
+
+.checkin-btn {
+	height: 48px;
+	margin: 0 auto;
+}
+
+.info-img, .info-img img {
+  width: 90px;
+  height: 70px;
+}
+
+.info-img-1 {
+  width: 90px;
+  height: 90px;
+}
+
+/* 底部弹框 */
+.modal-layer{position:fixed;top:0;bottom:0;left:0;z-index:888;display:none;width:100%}
+.modal-layer-bg{width:100%;height:100%;background-color:#000;opacity:.55;filter:alpha(opacity=55)}
+
+/* 进度条 */
+.progress {
+  border-left: 1px dotted #ccc;
+}
+
+.progress li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.form-check input{
+	display: none;
+}
+.form-check label{
+	box-sizing: border-box;
+	position: relative;
+	margin-right: 8px;
+}
+
+.form-check label span {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	z-index: 10;
+}
+
+.form-check label::before{
+display: inline-block;
+content: "";
+padding: 10px 28px;
+border-radius: 4px;
+background-color: rgba(191, 191, 191, 0.10);
+border: 1px solid rgb(219, 219, 219);
+vertical-align: bottom;
+}
+.form-check input:checked+label::before{
+	border: 1px solid #3399FF;
+	background-color: rgba(51, 153, 255, 0.10);
+}
+.form-check input:checked+label::after{
+	display: inline-block;
+	content: "";
+	color: #ffffff;
+	width: 14px;
+	height: 14px;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 4px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #3399FF;
+}
+
+.form-check input:checked+label span::after {
+	content: "";
+	position: absolute;
+	right: 3px;
+	bottom: 2px;
+	width: 5px;
+	height: 9px;
+	border-right:2px solid #fff;
+	border-bottom:2px solid #fff;
+	transform: rotate(40deg);
+}
+
+/* 图片上传 */
+
+.upload-content{
+  margin: 10px auto;
+  font-size: 12px;
+  color: #666;
+  background: #fff;
+}
+
+.upload-content .content-img-list{
+  display: inline;
+	
+}
+.upload-content .content-img .ico-plus{
+display: block;
+margin-top: 14px;
+margin-left: 22px;
+margin-bottom: 10px;
+width: 32px;
+height: 32px;
+background: url('../images/mall/icon-plus-1.png') center/32px 32px;
+}
+.upload-content .content-img-list-item{
+position: relative;
+display: inline-block;
+width: 115px;
+height: 96px;
+margin-top: 20px;
+margin-left: 7px;
+}
+.upload-content .content-img-list-item:first-child{
+margin-left: 0;
+}
+.upload-content .content-img-list-item .hide{
+display: none;
+}
+.upload-content .content-img-list-item .delete-btn{
+position: absolute;
+left: 0;
+bottom: 0;
+text-align: center;
+width: 100%;
+background: rgba(0,0,0,0.6);
+height: 28px;
+line-height: 28px;
+color: #fff;
+cursor: pointer;
+}
+.upload-content .content-img-list-item .ico-delete{
+display: inline-block;
+vertical-align: middle;
+width: 12px;
+height: 13px;
+background: url('../images/mall/icon-plus-1.png') center/12px 13px;
+}
+.upload-content .content-img-list-item img{
+width: 165px;
+height: 96px;
+}
+
+/*图片上传按钮*/
+.upload-content .file {
+position: relative;
+display: inline-block;
+border: 1px dashed #DEDEDE;
+border-radius: 4px;
+color: #999999;
+text-decoration: none;
+text-indent: 0;
+/* width: 165px; */
+/* height: 96px;
+line-height: 96px; */
+  padding: 0 20px;
+  padding-bottom: 10px;
+}
+.upload-content .file input {
+position: absolute;
+font-size: 0px;
+right: 0;
+top: 0;
+opacity: 0;
+cursor: pointer;
+width: 165px;
+height: 96px;
+}
+.upload-content .file:hover {
+color: #999999;
+}
+
+.upload-submit{
+	text-align: center;
+	margin-top: 50px;
+	}
+	.upload-submit .btn-submit-upload{
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	box-sizing: border-box;
+		background: #ff8819;
+	color: #fff;
+	border: 1px solid #ff8819;
+	border-radius: 2px;
+	text-decoration: none;
+	}
+
+  .top {
+    background-color: #ffffff;
+  }
+
+	.close-btn img{
+		height: 16px
+	}

@@ -1,0 +1,145 @@
+.header {
+	height: 366px;
+	background: linear-gradient(135deg, #C8FBCE, #F6DC8C)
+}
+
+.header-detail {
+  width: 100%;
+  height: 190px;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+ 
+.header-detail::after {
+  width: 140%;
+  height: 148px;
+  position: absolute;
+  left: -20%;
+  top: 0;
+  z-index: -1;
+  content: '';
+  border-radius: 0 0 50% 50%;
+  background: linear-gradient(135deg, #C8FBCE, #F6DC8C);
+}
+
+.card-box {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.card-box .card-info{
+	margin: auto;
+	width: 94%;
+	height: 100px;
+	background: rgba(248, 209, 47, .22);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px); 
+	border-radius: 8px;
+	border: 1px solid #FFFFFF;
+}
+
+.info {
+	top: 50px;
+}
+
+.btn-mall {
+	width: 91px;
+	line-height: 35px;
+	height: 35px;
+	background: linear-gradient(90deg, #FBF6A0 0%, #F8CF28 100%);
+	border-radius: 18px 18px 18px 18px;
+	opacity: 1;
+}
+
+.date-card {
+	top: 94px;
+	height: 328px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #FEFBF1 79%, #FFEDBC 100%);
+}
+
+.content {
+	margin-top: 70px;
+}
+
+.bg-day {
+	height: 50px;
+}
+
+.step::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	bottom: 32px;
+	width: calc(100% - 36px);
+	height: 3px;
+	left: 10px;
+	right: 26px;
+	background: #f97316;
+	border-radius: 3px;
+}
+
+.step>div {
+	z-index: 10;
+}
+
+.step-w {
+	width: 15.5%;
+}
+
+.tips::after {
+	width: 0;
+	height: 0;
+	border-top: 6px solid #f97316;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+	content: "";
+	position: absolute;
+	left: 8px;
+	top: 16px;
+}
+
+.menu li {
+	margin:0 20px;
+	position: relative;
+}
+
+.menu li.active {
+	color: #FAA02B;
+}
+
+.menu li.active::after{
+	content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 8px);
+  width: 16px;
+  height: 3px;
+  background: #FAA02B;
+  border-radius: 3px;
+}
+
+.checked {
+	border-color: #FFE8A8;
+	background-color: #FFE8A8;
+	color: #FAA02B;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+.uncheck {
+	font-size: 13px;
+	color: #FFD86B;
+	border-color: #FFD86B;
+}
+
+.uncheck .cic {
+	width: 24px;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	border-radius: 50%;
+	border: 1px dashed #FFD86B;
+}
